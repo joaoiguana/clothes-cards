@@ -29,9 +29,9 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', Arial, sans-serif;
-  /* background: var(--color-background);
-  color: var(--color-text); */
+  /* font-family: 'Poppins', Arial, sans-serif; */
+  background: var(--color-background);
+  color: var(--color-text);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +48,7 @@ button {
   padding: var(--length-md1);
   display: grid;
   grid-gap: var(--length-md1);
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   /* grid-template-areas: */
 }
 
